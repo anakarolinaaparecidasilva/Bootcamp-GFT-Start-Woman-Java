@@ -1,0 +1,57 @@
+ESTRUTURA DE DADOS E ALGORITMOS
+
+ESTRUTURA DE DADOS:
+é uma estrutura organizada de dados em dispositivos de armazenamento para ser utilizado de forma correta.
+
+ALGORITMO:
+é um conjunto de instruções estruturadas e ordenadas, seu objetivo é realizar uma tarefa ou operação específica.
+São usados para manipular dados nas estruturas. 
+Exemplos: inserir, excluir, procuar e ordenar dados.
+
+Ao desenvolver um programa, esta-se codificando um algoritmo em uma linguagem de programação.
+
+PRINCIPAIS ESTRUTURAS DE DADOS:
+- VETORES E MATRIZES: são simples e auxiliam quando há muitas variáveis do mesmo tipo.
+
+- VETOR: pode armazenar uma determindada quantidade de valores do mesmo tipo, de acordo com o que você delimitar. 
+Também é chamado de array.
+
+- MATRIZ: é um vetor que possui 2 ou mais dimensões.
+
+
+Exemplos usando o Portugol:
+
+- Para acessar a 1ª posição:
+escreva (numeros [0]) -> zero (0) é a 1ª posição
+
+- Para acessar todos os índices do vetor:
+para (inteiro posicao=0; posicao <=3; posicao ++) {
+escreva (numeros [posicao], " ")
+}
+
+
+- REGISTROS:é um formato especializado para armazenar informações em memória. Permite armazenar mais de um tipo de dado (difernetes arrays).
+Composto por campos que especificam cada uma as informações.
+Seus campos podem ser acessados por meio do operador ponto (.)
+Exemplo: para acessar preço de um livro -> livro.preco
+
+- LISTAS: armazena dados de determinado tipo em ordem específica. Se diferencia dos arrays por possuírem tamanho ajustável. Existem as listas:
+--ligadas: nó conhece o próximo nó que será adicionado.
+--duplamente ligadas: variações das listas ligadas. Se diferencia por ser bidirecional, permite navegação reversa.
+
+- PILHAS: serve como uma coleção de elementos e permite o acesso a somente um item de dados armazenados, é restrito, um item só pode ser lido ou removido por vez.
+Há dois tipos:
+-- LIFO ou UEPS: 1º elemento a ser retirado é o último a ser inserido.
+-- FIFO ou PEPS: 1º elemento retirado é o 1º a ser inserido.
+push (inserir) e pop (esvaziar)
+
+- FILAS: admite remoção e inserção de elementos. O elemento removido é o que está na estrutura a mais tempo (FIFO).
+
+- ÁRVORES: elementos hierárquicos, topo (raíz) e subordinados (nós ou folhas).
+
+- TABELA HASH (dispersão ou espalhamento): é a estrutura de dados especial, que associa chaves de pesquisa a valores.
+-- valores: é a posição ou índice onde o elemento se encontra.
+-- chave: parte da informação que compõe o elemento a ser manipulado.
+
+- GRAFOS: estrutura que permitem programar a relação entre objetos. Os objetos são vértices ou nós do grafo.
+Os relacionamentos são arestas.
