@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ana-k"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-14 08:55:11 "/>
+        <attribute name="created" value="YW5hLWs7REVTS1RPUC1SUkdVMUFGOzIwMjItMDQtMTQ7IjA4OjUyOjUwICI7MjczMw=="/>
+        <attribute name="edited" value="YW5hLWs7REVTS1RPUC1SUkdVMUFGOzIwMjItMDQtMTQ7IjA4OjU1OjExICI7MTsyODQx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <while expression="numero&lt;=limite">
+                <output expression="&quot;Contagem atual &quot; &amp;numero" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

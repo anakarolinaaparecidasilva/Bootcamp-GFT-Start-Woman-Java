@@ -1,0 +1,156 @@
+LÓGICA DE PROGRAMAÇÃO ESSENCIAL
+É utilizar a lógica na programação de computadores.
+
+- metacognição: pensar como você pensa.
+
+Exemplo:
+Precisa comprar 2 camisetas, cada uma custa R$50,00. Porém comprando 2, ganha 20% de desconto. Qual valor do desconto e quanto irá pagar pelas duas camisetas?
+Resolução: TOTAL: 2xR$50,00=R$100,00
+VALOR DO DESCONTO: 20%=20/100=0,2=R$20,00
+IRÁ PAGAR: R$100,00-R$20,00=R$80,00
+
+*LÓGICA:
+2xR$50,00=R$100,00
+20% de desconto, irá pagar 80% de R$100,00=R$80,00
+
+
+EXERCÍCIO:
+Crar mapa mental - Calcular média aritmética de 4 notas:
+NOTA1=5
+NOTA2=7
+NOTA3=10
+NOTA4=3
+
+Resolução: MÉDIA ARITMÉTICA=5+7+10+3/4=25/4=6,25
+
+
+- abstração: concentrar nos aspectos essencias. 
+Sempre verificar se tem um jeito mais fácil de resolver.
+
+
+ALGORITMO:
+É uma sequência de passos para resolver um problema.
+Sempre indicar início e fim.
+A ordem dos passos é importante, deve ser respeitada.
+
+
+Programação para iniciantes (https://studio.code.org/s/mc/stage/1/puzzle/1)
+
+Exercício 01: entrar no site acima e resolver todos os problemas em menos de uma hora. 
+Resolução: tempo gasto de 26 minutos.
+
+PSEUDOCÓDIGO: é uma forma genérica. Serve para aprender a programar.
+
+
+Exercício 02: entrar no site (https://rachacuca.com.br/jogos/pinguins-numa-fria/) resolva e digite o pseudocódigo utilizado.
+Resolução:
+ÍNICIO DO JOGO
+-filhote vermelho sobe no gelo
+-pai vermelho sobe no gelo
+-atravessa o rio
+- pai vermelho desce do gelo
+-atravessa o rio
+-filhote verde sobe no gelo
+-filhote vermelho desce do gelo
+-atravessa o rio
+-pai verde sobe no gelo
+-atravessa o rio
+-pai verde desce do gelo
+-atravessa o rio
+-filhote azul sobe no gelo
+-atravessa o rio
+-filhote verde desce do gelo
+-atravessa o rio
+-pai azul sobe no gelo
+-atravessa o rio
+-pai azul desce do gelo
+-filhote azul desce do gelo
+FIM DO JOGO
+
+
+FLUXOGRAMA: 
+usado para representar graficamente o algoritmo.
+Diagrama de blocos: representa o método do fluxograma.
+
+VARIÁVEIS: 
+objeto para reter ou representar um valor ou expressão, pode ser alterado durante a execução do algoritmo.
+
+CONSTANTES: 
+valor imutável, não pode ser alterado.
+
+Link Flowgorithm:
+http://www.flowgorithm.org -> linguagem em português.
+
+EXPRESSÕES ARITMÉTICAS: 
+utiliza operadores e funções aritméticas.
+- Operadores aritméticos: soma (+), subtração (-), multiplicação (*), divisão (/), (^), (%).
+
+EXPRESSÕES LITERAIS: 
+usada na atribuição de valor.
+Ao atribuir = 
+e para valor usar ""
+
+OPERADORES RELACIONAIS: 
+retornam valores lógicos.
+São eles: maior (>), maior ou igual (>=), menor (<), menor ou igual (<=), igual (==), diferente (!=).
+
+CONCATENAÇÃO:
+designa operação de nir o conteúdo de duas strings (sequência de caracteres). Ex: nome e sobrenome.
+
+ESTRUTURA DE REPETIÇÃO:
+permite executar mais de uma vez o mesmo comando, de acordo com uma condição ou contador.
+
+LINGUAGEM DE PROGRAMAÇÃO:
+é uma linguagem para gerar programas.
+Serve como meio de comunicação entre máquinas e humanos. 
+Existem dois tipos:
+- Alto nível: mais se aproxima da linguagem humana.
+- Baixo nível: mais se aproxima da máquina.
+
+Há as linguagens:
+- Compiladas: digita o código e o compilador vai transformar em executável, ou seja, traduz para o código de máquina. Exemplos: DELPHI, C++.
+
+- Interpretadas: código executado por um programa. Exemplos: JavaScript, PHP, Phyton.
+
+SOFTWARE PORTUGOL: usa uma pseduolinguagem para desenvolver algoritmos, resolvendo o problema em si.
+
+Link do Software Portugol: 
+https://github.com/UNIVALI-LITE/Portugol-Studio/releases/
+
+
+DESVIO CONDICIONAL SE: 
+palavra reservada para comando, não deve usar como variável.
+A condição testada entre parenteses e as insruções entre chaves caso o desvio seja verdadeiro.
+
+SENÃO: falso
+
+COMENTÁRIO:
+é um lembrete ao programador. Usa-se //
+Pode usar no inicio do algoritmo, ou no meio do comando para explicar o que esse irá fazer.
+
+DESVIO CONDICIONAL CASO: 
+quando há mais de 2 opções a se escolher.
+
+LAÇOS DE REPETIÇÃO = ESTRUTURA DE REPETIÇÃO
+
+MATRIZ: coleção de variáveis de mesmo tipo.
+INDICE: posição de uma matriz.
+MATRIZES: coleção de dados (exemplo: tabela).
+VETORES: matrizes de uma só dimensão.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
