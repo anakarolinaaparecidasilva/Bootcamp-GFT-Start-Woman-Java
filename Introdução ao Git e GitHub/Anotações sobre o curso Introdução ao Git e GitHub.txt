@@ -1,0 +1,64 @@
+Git e GitHub
+
+São complementares, porém diferentes.
+- Git é um software de versionamento de código distribuídos seguro.
+- GitHub é um repositório online e funciona como uma rede social.
+
+Links:
+- Instalação Git (www.git-scm.com)
+- Site GitHub (https://github.com/)
+
+
+Alguns comandos Git:
+ dir -> lista as pastas
+cd/ -> navega nas pastas
+cd.. -> retrocede (ação anterior)
+cls -> limpar terminal
+mkdir "nome pasta" -> cria uma nova pasta
+echo "texto"-> printa texto/frase
+del "nome pasta"-> deleta arquivo
+rmdir "nome pasta" -> deleta todo o diretório
+
+a tecla tab serve como atalho com função de autocompletar nome das pastas.
+
+
+SHA (Secure Hash Algorith) é um algorismo de encriptação que gera um conjunto de caracteres de 40 digitos (identificador) a cada mudança realizada no arquivo. É uma forma curta de representar uma arquivo.
+
+
+Objetos fundamentais do Git:
+- Blobs: contem metadados.
+echo 'conteudo' | git hash_objetc -- stdin
+
+- Tree: armazena o blob e apronta pra direntes tipos de blobs. Também apresenta metadados. Guarda o SHA1 e o nome do arquivo. É responsável por montar toda estrutura de onde estão os arquivos.
+
+- Commit:"junta tudo". Aponta para uma tree, para um parente (último commit realizado anteriormente), para um autor e uma mensagem. Dá siginificado a tudo. É como uma linha do tudo, onde se consegue verificar se houve alterações.Possui um SHA1.
+
+Chave SSH: é uma forma de estabelecer conexão segura e encriptada entre duas máquinas. 
+Para cadastrar chave:
+site GitHub, definições, SSH and GPK Keys, new SSH key, gerar.
+
+* GitBash e digitar comandos:
+ssh -keygen -t ed 25519 -c "email"
+digita a sua senha
+
+cd/c/users/diretorio/.ssh/
+ls 
+cat id _ed25519.pub
+
+
+Iniciar Git e criar commit:
+git init -> iniciar git
+git add -> mover arquivos e inicio do versionamento
+git commit -m "nome"-> criar commit
+
+Ciclo de vida dos arquivos no Git:
+- untracked: arquivo que o Git não tem ciência dele.
+- tracked: arquivo que o Git tem ciência.
+- unmodified: arquivo que ainda não foi modificado.
+- modified: "stage" do arquivo.
+- staged: onde fica os arquivos que estão esperando outro agrupamento de arquivos.
+
+
+
+
+
